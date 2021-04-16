@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from langdetect import detect
 
 app = Flask(__name__)
@@ -7,22 +7,7 @@ app = Flask(__name__)
 # root
 @app.route("/")
 def index():
-    """
-    this is a root dir of my server
-    :return: str
-    """
-    return "This is root!!!!"
-
-
-# GET
-@app.route('/users/<user>')
-def hello_user(user):
-    """
-    this serves as a demo purpose
-    :param user:
-    :return: str
-    """
-    return "Hello %s!" % user
+    return "Root"
 
 
 # POST
