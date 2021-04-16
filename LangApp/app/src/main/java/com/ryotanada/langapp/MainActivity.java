@@ -23,7 +23,7 @@ import static java.sql.DriverManager.println;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String url = "http://" + "10.0.2.2" + ":" + 5000 + "/";
+    private String url = "http://" + "20.188.123.78" + ":" + 5000 + "/";
     private String postBodyString;
     private MediaType mediaType;
     private RequestBody requestBody;
