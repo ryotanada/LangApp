@@ -19,6 +19,8 @@ def get_text_prediction():
     if len(text) == 0:
         return "Invalid Input"
 
+    print("incoming: "+text+", outcoming: "+lang) 
+    
     return "Language is: "+lang
 
 
