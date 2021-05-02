@@ -9,17 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import okhttp3.*;
-import com.google.gson.JsonObject;
-import com.ryotanada.langapp.retrofit.APIKindaStuff;
 
 import java.io.IOException;
-
-//import retrofit2.Call;
-//import retrofit2.Callback;
-//import retrofit2.Response;
-
-import static java.sql.DriverManager.println;
-
 
 public class MainActivity extends AppCompatActivity {
 
