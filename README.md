@@ -1,6 +1,6 @@
 # LangApp
 Thank you for visiting LangApp!
-WHat you see here is the current version of the app.
+WHat you see here is the current version of the app.  
 Prerequisites:
 1. Android Studio
 2. Python (min 2.7.12)
@@ -13,5 +13,5 @@ Procedures to run:
    . venv/bin/activate  
 2. Run the flask_web_py (simply click in IDE or run: python flask_web_py)
 3. Run the app, use Android Studio
-4. Simply type in a text in the app and you'll get a language!
-Demo: 
+4. Simply type in a text in the app and you'll get a language!  
+Demo: https://youtu.be/RqRLwbrXdEw
