@@ -1,6 +1,6 @@
 # LangApp
 Thank you for visiting LangApp!
-WHat you see here is the current version of the app.  
+What you see here is the current version of the app.  
 Prerequisites:
 1. Android Studio
 2. Python (min 2.7.12)
