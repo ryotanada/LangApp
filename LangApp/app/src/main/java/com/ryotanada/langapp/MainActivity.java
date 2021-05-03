@@ -14,7 +14,9 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
-    private String url = "http://" + "20.188.123.78" + ":" + 5000 + "/";
+    private String ip = "20.188.123.78"; //your device's or vm's IP
+    private String port = 5000; //port of the flask server
+    private String url = "http://" + ip + ":" + port + "/";
     private String postBodyString;
     private MediaType mediaType;
     private RequestBody requestBody;
